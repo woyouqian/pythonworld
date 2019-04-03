@@ -1,0 +1,4 @@
+1.这是一个Python代码编写的系统，功能简单；
+2先要在BankSystem.py中配置卡片信息文档存放的路径和文件名称（self.savePath="D:\\codefiles\\proj01\\cardinfo.txt"）；
+目前只支持txt文本，以及word文档；
+3.运行OperateSystem.py脚本，即可以开始使用ZT卡片管理系统；
