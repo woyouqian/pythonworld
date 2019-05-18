@@ -32,7 +32,7 @@ def xls_read(sheet_obj):
 
             col_info = sheet_obj.col_values(index)
             col_info.pop(0)
-            print(col_info)
+            # print(col_info)
             xlsDo.xls_column_kind(col_info)
         else:
             print("column msg error,please confirm: ")
