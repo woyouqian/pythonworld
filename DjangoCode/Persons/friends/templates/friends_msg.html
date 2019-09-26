@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Friends message</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">friend message</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		<ol type="1" start="1">
+		    {% for friend in girl_friends %}
+		        <li>
+		        	{{friend.name}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{% if friend.sex %}
+		        	    男
+		        	{% else %}
+		        	    女
+		        	{% endif %}
+		        	&nbsp;&nbsp;&nbsp;&nbsp;{{friend.age}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.phone}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{friend.email}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.live}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.address}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.mark}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	<a href="/get_one_friend/?editor={{friend.id}}">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/delete_friend/?delete={{friend.id}}">删除</a>
+		        </li>
+		    {% endfor %}
+		 </ol><br />
+		 <br /><br /><br />
+		 <ol type="i" start="i">
+		    {% for friend in boy_friends %}
+		        <li>
+		        	{{friend.name}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{% if friend.sex %}
+		        	    男
+		        	{% else %}
+		        	    女
+		        	{% endif %}
+		        	&nbsp;&nbsp;&nbsp;&nbsp;{{friend.age}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.phone}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{friend.email}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.live}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.address}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.mark}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	<a href="/get_one_friend/?editor={{friend.id}}">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/delete_friend/?delete={{friend.id}}">删除</a>
+		        </li>
+		    {% endfor %}
+		 </ol><br />
+	</body>
+</html>

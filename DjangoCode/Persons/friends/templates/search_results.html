@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Search results</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">search friend</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		{% if error %}
+		    <ol type="1" start="1">
+		    {% for friend in friends %}
+		        <li>
+		        	{{friend.name}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{% if friend.sex %}
+		        	    男
+		        	{% else %}
+		        	    女
+		        	{% endif %}
+		        	&nbsp;&nbsp;&nbsp;&nbsp;{{friend.age}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.phone}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{friend.email}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.live}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.address}}&nbsp;&nbsp;&nbsp;&nbsp;{{friend.mark}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	<a href="/get_one_friend/?editor={{friend.id}}">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/delete_friend/?delete={{friend.id}}">删除</a>
+		        </li>
+		    {% endfor %}
+		    </ol>
+		{% else %}
+		    <p>The found result is empty.</p>
+		{% endif %}
+	</body>
+</html>

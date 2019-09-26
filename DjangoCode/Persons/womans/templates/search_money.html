@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Search money</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">search one detail</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		<center>
+		{% if not error %}
+			<b><font color="red">There is not found: {{name}}. Please try again!</font></b><br><br>
+		{% endif %}
+		<form method="get" action="/get_one_detail/">
+			<b>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</b>&nbsp;&nbsp;<input type="text" name="name" required="required" /><br /><br />
+			<input type="reset" value="重置" onclick="alert('请确认是否要重置？')" />&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" name="submit" value="提交" onclick="alert('请确认是否要提交？')" /><br />
+		</form>
+		</center>
+	</body>
+</html>

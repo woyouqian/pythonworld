@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Update friend</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">update friend</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		<center>
+		<form action="/update_friend/" method="post">
+			{% csrf_token %}
+			<b>id&nbsp;&nbsp;&nbsp;&nbsp;值：</b>&nbsp;&nbsp;<input type="text" name="id" readonly="readonly" value="{{friend.id}}" /><br /><br />
+			<b>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</b>&nbsp;&nbsp;<input type="text" name="name" required="required" value="{{friend.name}}" /><br /><br />
+			<b>年&nbsp;&nbsp;&nbsp;&nbsp;纪：</b>&nbsp;&nbsp;<input type="text" name="age" maxlength="3" value="{{friend.age}}" /><br /><br />
+			<b>手&nbsp;&nbsp;&nbsp;&nbsp;机：</b>&nbsp;&nbsp;<input type="text" name="phone" required="required" value="{{friend.phone}}" /><br /><br />
+			<b>邮&nbsp;&nbsp;&nbsp;&nbsp;箱：</b>&nbsp;&nbsp;<input type="email" name="email" checked="checked" value="{{friend.email}}" /><br /><br />
+			<b>职&nbsp;&nbsp;&nbsp;&nbsp;业：</b>&nbsp;&nbsp;<input type="text" name="live" value="{{friend.live}}" /><br /><br />
+			<b>地&nbsp;&nbsp;&nbsp;&nbsp;址：</b>&nbsp;&nbsp;<input type="text" name="address" value="{{friend.address}}" /><br /><br />
+			<b>备&nbsp;&nbsp;&nbsp;&nbsp;注：</b>&nbsp;&nbsp;<input type="text" name="mark" value="{{friend.mark}}" /><br /><br />
+			<input type="reset" value="重置" onclick="alert('请确认是否要重置？')" />&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" name="submit" value="提交" onclick="alert('请确认是否要提交？')" /><br />
+		</form>
+		</center><br />
+	</body>
+</html>

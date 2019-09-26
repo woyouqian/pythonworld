@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+</head>
+<body>
+    <br />
+		<h1 align="center">scan detail</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+        <ol type="1" start="1">
+		    {% for money in sb_money %}
+                <li>
+                {{money.name}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.number}}&nbsp;&nbsp;&nbsp;&nbsp;
+                {{money.charge}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.buy}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.mark}}
+		        </li>
+            {% endfor %}
+        </ol><br>
+    <br><br>
+    总计：&nbsp;{{charge}}&nbsp;&nbsp;&nbsp;&nbsp;消费：&nbsp;{{buy}}&nbsp;&nbsp;&nbsp;&nbsp;余额：&nbsp;{{count}}&nbsp;&nbsp;&nbsp;&nbsp;
+	<br><br><a href="/charge_money/">充值</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/buy_money/">消费</a>
+</body>
+</html>

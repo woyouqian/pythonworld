@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>All money</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">scan all money</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		{% if error %}
+		    <ol type="1" start="1">
+		    {% for money in all_money %}
+		        <li>
+		        	{{money.name}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.number}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{money.charge}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.buy}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.mark}}
+		        </li>
+		    {% endfor %}
+		    </ol>
+		{% else %}
+		    <p>The data recoder is empty. Please add it!</p>
+		{% endif %}<br>
+	<br><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;<a href="/womans/"><button>back page</button></a><br>
+	</body>
+</html>

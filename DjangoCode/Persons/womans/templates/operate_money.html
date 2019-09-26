@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operate money</title>
+</head>
+<body>
+	<br />
+		<h1 align="center">scan all number</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		{% if error %}
+		    <ol type="1" start="1">
+		    {% for money in all_money %}
+		        <li>
+		        	{{money.name}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.number}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{money.charge}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.buy}}&nbsp;&nbsp;&nbsp;&nbsp;{{money.mark}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	<a href="/get_one_money/?editor={{money.id}}">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/delete_money/?delete={{money.id}}">删除</a>
+		        </li>
+		    {% endfor %}
+		    </ol>
+		{% else %}
+		    <p>The data recoder is empty. Please add it!</p>
+		{% endif %}
+</body>
+</html>
