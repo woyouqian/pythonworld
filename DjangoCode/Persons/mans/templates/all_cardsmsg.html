@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>All cardsmsg</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">scan all cardsmsg</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		{% if error %}
+		    <ol type="1" start="1">
+		    {% for card in all_cards %}
+		        <li>
+		        	{{card.hostname}}&nbsp;&nbsp;&nbsp;&nbsp;{{card.cardnumber}}&nbsp;&nbsp;&nbsp;&nbsp;
+		        	{{card.usepassword}}&nbsp;&nbsp;&nbsp;&nbsp;{{card.mark}}
+		        </li>
+		    {% endfor %}
+		    </ol>
+		{% else %}
+		    <p>The data recoder is empty. Please add it!</p>
+		{% endif %}<br>
+	<br><br><br>
+	<a href="/mans/">返&nbsp;&nbsp;回</a><br>
+	</body>
+</html>

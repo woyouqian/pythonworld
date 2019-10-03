@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>All cardsmsg</title>
+	</head>
+	<body>
+		<br />
+		<h1 align="center">operate cards</h1>
+		<hr align="center" size="2" color="blueviolet" /><br />
+		<ol type="1" start="1">
+		{% for card in all_cards %}
+			<li>
+				{{card.hostname}}&nbsp;&nbsp;&nbsp;&nbsp;{{card.cardnumber}}&nbsp;&nbsp;&nbsp;&nbsp;
+				{{card.usepassword}}&nbsp;&nbsp;&nbsp;&nbsp;{{card.mark}}&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="/get_one_cardmsg/?editor={{card.id}}">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/delete_cardmsg/?delete={{card.id}}">删除</a>
+			</li>
+		{% endfor %}
+		</ol>
+	<br><br><br>
+	</body>
+</html>
