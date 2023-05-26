@@ -1,0 +1,4 @@
+2023-05-15 16:04:56 INFO conftest.py fixture_start 8 一切已准备就位，开始测试
+2023-05-15 16:04:56 INFO test_base_fuction1.py test_base_op1 29 登陆ZT管理系统
+2023-05-15 16:04:56 INFO test_base_fuction1.py test_base_op2 36 退出管理系统
+2023-05-15 16:04:56 INFO conftest.py fixture_start 11 测试结束，清除数据并恢复环境

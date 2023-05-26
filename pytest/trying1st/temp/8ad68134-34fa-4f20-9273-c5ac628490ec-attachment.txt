@@ -1,0 +1,13 @@
+[32mINFO    [0m root:test_base_fuction7.py:18 一切已准备就位，开始测试
+[32mINFO    [0m root:test_base_fuction7.py:28 登陆ZT管理系统
+[32mINFO    [0m root:test_base_fuction7.py:30 按条件查找记录
+[32mINFO    [0m root:test_base_fuction7.py:34 删除存在的记录
+[32mINFO    [0m root:test_base_fuction7.py:38 显示所有的记录
+[33mWARNING [0m root:test_base_fuction7.py:39 删除该记录失败--Zard
+[32mINFO    [0m root:test_base_fuction7.py:41 退出管理系统
+[32mINFO    [0m root:test_base_fuction7.py:28 登陆ZT管理系统
+[32mINFO    [0m root:test_base_fuction7.py:30 按条件查找记录
+[32mINFO    [0m root:test_base_fuction7.py:34 删除存在的记录
+[32mINFO    [0m root:test_base_fuction7.py:38 显示所有的记录
+[33mWARNING [0m root:test_base_fuction7.py:39 删除该记录失败--Zard
+[32mINFO    [0m root:test_base_fuction7.py:41 退出管理系统

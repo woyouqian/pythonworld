@@ -1,0 +1,2 @@
+INFO     root:conftest.py:8 一切已准备就位，开始测试
+INFO     root:test_base_fuction1.py:29 登陆ZT管理系统

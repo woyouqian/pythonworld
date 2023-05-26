@@ -1,0 +1,5 @@
+INFO     root:conftest.py:8 一切已准备就位，开始测试
+INFO     root:test_base_fuction2.py:16 登陆ZT管理系统
+INFO     root:test_base_fuction2.py:19 增加新的记录
+INFO     root:test_base_fuction2.py:22 显示所有的记录
+INFO     root:test_base_fuction2.py:25 不保存退出管理系统

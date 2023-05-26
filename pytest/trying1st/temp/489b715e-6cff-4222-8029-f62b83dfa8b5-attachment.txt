@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_doit7.py:47 6.保存记录；
+[31mCRITICAL[0m root:test_doit7.py:17 ------ 基本测试结束，清除数据恢复环境 ------
+[31mCRITICAL[0m root:test_doit7.py:18 ------ 基本测试结束，清除数据恢复环境 ------

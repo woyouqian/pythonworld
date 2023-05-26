@@ -1,0 +1,148 @@
+2023-05-17 14:42:15 INFO test_doit5.py test_print12 8 hello world!
+2023-05-17 14:42:15 ERROR test_doit5.py test_print12 9 hello world2!
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 15 i am writing logs...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 16 i am writing logs 2...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 15 i am writing logs...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 16 i am writing logs 2...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 15 i am writing logs...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 16 i am writing logs 2...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 15 i am writing logs...
+2023-05-17 14:42:15 INFO test_doit5.py test_print13 16 i am writing logs 2...
+2023-05-17 14:42:15 WARNING test_doit5.py test_print14 22 i am writing logs now...
+2023-05-17 14:42:15 CRITICAL test_doit6.py test_print16 12 
+            # 全局配置和handler处理器配置，只存其一即可！
+            # 使用logging.basicConfig全局配置时，终端显示和文件保存只能选其一，不能同时共存。
+            # 日志器与handler处理器同时设置level，以logger为准！
+            # 日志器无绑定handler时，以全局配置为准！
+            
+2023-05-17 14:42:15 INFO test_doit6.py test_print17 19 this is 1th point of me...
+2023-05-17 14:42:15 INFO test_doit6.py test_print18 23 this is 2nd point of me...
+2023-05-17 14:42:15 INFO test_doit6.py test_print19 27 this is 3rd point of me...
+2023-05-17 14:42:15 CRITICAL test_doit7.py setup_class 12 ------ 一切准备就位，开始测试ZT管理系统 ------
+2023-05-17 14:42:15 CRITICAL test_doit7.py setup_class 13 ------ 一切准备就位，开始测试ZT管理系统 ------
+2023-05-17 14:42:15 INFO test_doit7.py test_run 22 欢迎使用ZT管理系统
+2023-05-17 14:42:15 INFO test_doit7.py test_add 26 1.增加新的记录；
+2023-05-17 14:42:15 INFO test_doit7.py test_search 30 2.按条件查找记录；
+2023-05-17 14:42:15 INFO test_doit7.py test_modify 34 3.更改存在的记录；
+2023-05-17 14:42:15 INFO test_doit7.py test_display 38 5.显示所有的记录；
+2023-05-17 14:42:15 INFO test_doit7.py test_delete 43 4.按条件删除记录；
+2023-05-17 14:42:15 INFO test_doit7.py test_save 47 6.保存记录；
+2023-05-17 14:42:15 CRITICAL test_doit7.py teardown_class 17 ------ 基本测试结束，清除数据恢复环境 ------
+2023-05-17 14:42:15 CRITICAL test_doit7.py teardown_class 18 ------ 基本测试结束，清除数据恢复环境 ------
+2023-05-17 14:42:15 CRITICAL test_doit8.py setup_class 13 ------ 一切准备就位，开始测试ZT管理系统 ------
+2023-05-17 14:42:15 INFO test_doit8.py test_run 31 欢迎使用ZT管理系统
+2023-05-17 14:42:16 INFO test_doit8.py test_add 36 1.增加新的记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_search 41 2.按条件查找记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_modify 46 3.更改存在的记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_display 51 5.显示所有的记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_delete 57 4.按条件删除记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_delete 57 4.按条件删除记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_delete 57 4.按条件删除记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_delete 57 4.按条件删除记录；
+2023-05-17 14:42:16 INFO test_doit8.py test_save 63 6.保存记录；
+2023-05-17 14:42:16 CRITICAL test_doit8.py teardown_class 17 ------ 测试结束，清除数据恢复环境 ------
+2023-05-17 14:42:16 INFO conftest.py fixture_start 8 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction1.py test_base_op1 29 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction1.py test_base_op2 36 退出管理系统
+2023-05-17 14:42:16 INFO conftest.py fixture_start 11 测试结束，清除数据并恢复环境
+2023-05-17 14:42:16 INFO conftest.py fixture_start 8 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 16 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 19 增加新的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 22 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 25 不保存退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 16 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 19 增加新的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 22 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 25 不保存退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 16 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 19 增加新的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 22 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 25 不保存退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 16 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 19 增加新的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 22 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction2.py test_base_op3 25 不保存退出管理系统
+2023-05-17 14:42:16 INFO conftest.py fixture_start 11 测试结束，清除数据并恢复环境
+2023-05-17 14:42:16 INFO conftest.py fixture_start 8 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction3.py test_base_op4 23 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction3.py test_base_op4 25 增加新的记录
+2023-05-17 14:42:16 INFO test_base_fuction3.py test_base_op4 27 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction3.py test_base_op4 29 保存该记录
+2023-05-17 14:42:16 INFO test_base_fuction3.py test_base_op4 31 退出管理系统
+2023-05-17 14:42:16 INFO conftest.py fixture_start 11 测试结束，清除数据并恢复环境
+2023-05-17 14:42:16 INFO conftest.py fixture_start 8 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction4.py test_base_op5 23 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction4.py test_base_op5 25 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction4.py test_base_op5 27 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction4.py test_base_op5 29 退出管理系统
+2023-05-17 14:42:16 INFO conftest.py fixture_start 11 测试结束，清除数据并恢复环境
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 24 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 26 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 28 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 30 更改存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 32 坂井泉水 is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 34 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 36 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 24 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 26 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 28 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 30 更改存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 32 坂井泉水 is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 34 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 36 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 24 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 26 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 28 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 30 更改存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 32 坂井泉水 is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 34 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 36 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 24 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 26 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 28 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 30 更改存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 32 坂井泉水 is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 34 显示所有的记录
+2023-05-17 14:42:16 INFO test_base_fuction5.py test_base_op6 36 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 25 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 27 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 29 Zard is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 31 更改存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 33 坂井泉水 is very popular in japan and china and so on other country...
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 35 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction6.py test_base_op7 37 保存该记录--坂井泉水
+2023-05-17 14:42:16 INFO test_base_fuction6.py test_base_op7 39 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py setup_class 18 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 28 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 30 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 34 删除存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 38 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction7.py test_base_op8 39 删除该记录失败--Zard
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 41 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 28 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 30 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 34 删除存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 38 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction7.py test_base_op8 39 删除该记录失败--Zard
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 41 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 28 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 30 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 34 删除存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 38 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction7.py test_base_op8 39 删除该记录失败--Zard
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 41 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 28 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 30 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 34 删除存在的记录
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 38 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction7.py test_base_op8 39 删除该记录失败--Zard
+2023-05-17 14:42:16 INFO test_base_fuction7.py test_base_op8 41 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction7.py teardown_class 46 测试结束，清除数据并恢复环境
+2023-05-17 14:42:16 INFO test_base_fuction8.py setup_class 19 一切已准备就位，开始测试
+2023-05-17 14:42:16 INFO test_base_fuction8.py test_base_op9 29 登陆ZT管理系统
+2023-05-17 14:42:16 INFO test_base_fuction8.py test_base_op9 31 按条件查找记录
+2023-05-17 14:42:16 INFO test_base_fuction8.py test_base_op9 35 按条件删除记录
+2023-05-17 14:42:16 INFO test_base_fuction8.py test_base_op9 39 显示所有的记录
+2023-05-17 14:42:16 WARNING test_base_fuction8.py test_base_op9 41 删除该记录生效--坂井泉水
+2023-05-17 14:42:16 INFO test_base_fuction8.py test_base_op9 43 退出管理系统
+2023-05-17 14:42:16 INFO test_base_fuction8.py teardown_class 48 测试结束，清除数据并恢复环境

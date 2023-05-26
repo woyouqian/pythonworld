@@ -1,0 +1,7 @@
+[32mINFO    [0m root:test_base_fuction5.py:24 登陆ZT管理系统
+[32mINFO    [0m root:test_base_fuction5.py:26 按条件查找记录
+[32mINFO    [0m root:test_base_fuction5.py:28 Zard is very popular in japan and china and so on other country...
+[32mINFO    [0m root:test_base_fuction5.py:30 更改存在的记录
+[32mINFO    [0m root:test_base_fuction5.py:32 坂井泉水 is very popular in japan and china and so on other country...
+[32mINFO    [0m root:test_base_fuction5.py:34 显示所有的记录
+[32mINFO    [0m root:test_base_fuction5.py:36 退出管理系统
