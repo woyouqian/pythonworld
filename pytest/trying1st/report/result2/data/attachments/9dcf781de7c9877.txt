@@ -1,2 +1,0 @@
-[32mINFO    [0m root:test_doit8.py:57 4.按条件删除记录；
-[32mINFO    [0m root:test_doit8.py:57 4.按条件删除记录；

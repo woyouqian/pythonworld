@@ -1,2 +1,0 @@
-[31mCRITICAL[0m root:test_doit8.py:13 ------ 一切准备就位，开始测试ZT管理系统 ------
-[32mINFO    [0m root:test_doit8.py:31 欢迎使用ZT管理系统

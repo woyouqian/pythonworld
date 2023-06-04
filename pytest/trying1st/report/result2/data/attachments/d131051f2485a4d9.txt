@@ -1,2 +1,0 @@
-[32mINFO    [0m root:test_doit5.py:8 hello world!
-[1m[31mERROR   [0m root:test_doit5.py:9 hello world2!

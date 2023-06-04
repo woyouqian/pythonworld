@@ -1,2 +1,0 @@
-[32mINFO    [0m root:test_base_fuction1.py:36 退出管理系统
-[32mINFO    [0m root:conftest.py:11 测试结束，清除数据并恢复环境

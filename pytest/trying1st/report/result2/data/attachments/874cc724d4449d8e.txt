@@ -1,1 +1,0 @@
-[32mINFO    [0m root:test_doit7.py:30 2.按条件查找记录；

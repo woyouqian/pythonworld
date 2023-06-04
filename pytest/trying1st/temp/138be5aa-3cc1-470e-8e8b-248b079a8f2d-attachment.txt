@@ -1,8 +1,0 @@
-[32mINFO    [0m root:test_base_fuction8.py:19 一切已准备就位，开始测试
-[32mINFO    [0m root:test_base_fuction8.py:29 登陆ZT管理系统
-[32mINFO    [0m root:test_base_fuction8.py:31 按条件查找记录
-[32mINFO    [0m root:test_base_fuction8.py:35 按条件删除记录
-[32mINFO    [0m root:test_base_fuction8.py:39 显示所有的记录
-[33mWARNING [0m root:test_base_fuction8.py:41 删除该记录生效--坂井泉水
-[32mINFO    [0m root:test_base_fuction8.py:43 退出管理系统
-[32mINFO    [0m root:test_base_fuction8.py:48 测试结束，清除数据并恢复环境

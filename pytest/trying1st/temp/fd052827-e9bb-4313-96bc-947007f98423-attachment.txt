@@ -1,6 +1,0 @@
-[32mINFO    [0m root:conftest.py:8 一切已准备就位，开始测试
-[32mINFO    [0m root:test_base_fuction4.py:23 登陆ZT管理系统
-[32mINFO    [0m root:test_base_fuction4.py:25 按条件查找记录
-[32mINFO    [0m root:test_base_fuction4.py:27 Zard is very popular in japan and china and so on other country...
-[32mINFO    [0m root:test_base_fuction4.py:29 退出管理系统
-[32mINFO    [0m root:conftest.py:11 测试结束，清除数据并恢复环境

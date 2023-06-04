@@ -1,2 +1,0 @@
-[32mINFO    [0m root:conftest.py:36 一切已准备就位，开始测试
-[32mINFO    [0m root:conftest.py:39 测试结束，清除数据并恢复环境

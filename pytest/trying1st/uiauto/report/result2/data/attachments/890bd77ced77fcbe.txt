@@ -1,8 +1,0 @@
-INFO     root:test_base_fuction6.py:25 登陆ZT管理系统
-INFO     root:test_base_fuction6.py:27 按条件查找记录
-INFO     root:test_base_fuction6.py:29 Zard is very popular in japan and china and so on other country...
-INFO     root:test_base_fuction6.py:31 更改存在的记录
-INFO     root:test_base_fuction6.py:33 坂井泉水 is very popular in japan and china and so on other country...
-INFO     root:test_base_fuction6.py:35 显示所有的记录
-WARNING  root:test_base_fuction6.py:37 保存该记录--坂井泉水
-INFO     root:test_base_fuction6.py:39 退出管理系统
